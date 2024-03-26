@@ -1,0 +1,14 @@
+.postListing {
+  margin: 0 6%;
+}
+
+.listingHeader {
+  height: 3rem;
+}
+
+.h2 {
+  margin-top: 0;
+  color: rgb(28, 28, 28);
+  font-size: 1.4em;
+  text-transform: uppercase;
+}

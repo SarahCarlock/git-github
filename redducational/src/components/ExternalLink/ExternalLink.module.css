@@ -1,0 +1,27 @@
+.externalLink {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 0.4em;
+  color: rgb(120, 120, 120);
+}
+
+.link,
+.link:link {
+  color: rgb(255, 86, 0);
+}
+
+.link:visited {
+  color: rgb(200, 65, 0);
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.link:active {
+  color: rgb(255, 150, 0);
+  text-decoration: none;
+}

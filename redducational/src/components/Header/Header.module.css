@@ -1,0 +1,33 @@
+.header {
+  margin-bottom: 2em;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.appName {
+  font-family: 'Varela Round', 'Noto Sans', sans-serif;
+}
+
+.h1 {
+  margin: 0;
+  padding: 0.6em 0;
+}
+
+.link,
+.link:link,
+.link:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);  /* Logo on left; search bar centred */
+  }
+
+  .appName {
+    margin: 0 auto 0 12%;  /* Push logo to the left, aligned with main content */
+  }
+}

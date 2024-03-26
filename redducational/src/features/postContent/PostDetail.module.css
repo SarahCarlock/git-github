@@ -1,0 +1,30 @@
+.postDetail {
+  margin: 0 6%;
+}
+
+.postHeader {
+  min-height: 3rem;
+  font-weight: 700;
+}
+
+.detailRow {
+  margin-bottom: 1.6rem;
+  color: rgb(255, 86, 0);
+}
+
+.mainContent {
+  margin: 1rem 0 2rem 0;
+  padding: 1em;
+  overflow: auto; /* URLs and formatting that don't wrap */
+  background-color: white;
+  border: 2px solid rgb(190, 195, 200);
+}
+
+.postTitle {
+  margin: 1.1em 0;
+  font-size: 1.3em;
+}
+
+.postLink {
+  margin: 1.1em 0;
+}

@@ -1,0 +1,43 @@
+.navList {
+  margin: 2rem 6% 3rem 6%;
+  padding: 1.2em 8%;
+  background-color: white;
+  box-shadow: 4px 4px 4px rgb(200, 200, 200);
+  text-align: center;
+}
+
+.h2 {
+  color: rgb(28, 28, 28);
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+.list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.toggle {
+  margin-top: 2em;
+  padding: 0.8em;
+  background-color: rgb(255, 86, 0);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 1024px) {
+  .toggle {
+    display: none;
+  }
+
+  .navList {
+    margin: 4rem 6%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .collapsed {
+    display: none;
+  }
+}

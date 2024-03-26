@@ -1,0 +1,11 @@
+/* CSS reset
+https://create-react-app.dev/docs/adding-css-reset/ 
+https://github.com/csstools/postcss-normalize */
+@import-normalize;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(230, 235, 240);
+}

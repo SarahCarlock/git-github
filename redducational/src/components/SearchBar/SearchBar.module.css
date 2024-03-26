@@ -1,0 +1,22 @@
+.searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8em;
+}
+
+.searchBar {
+  padding: 1em;
+  background-color: rgb(252, 252, 252);
+  border: 1px solid rgb(230, 235, 240);
+  border-radius: 25px;
+}
+
+.searchButton {
+  background-color: transparent;
+  border: 0 solid transparent;
+}
+
+.searchButton:hover {
+  cursor: pointer;
+}

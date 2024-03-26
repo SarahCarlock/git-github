@@ -1,0 +1,30 @@
+.navButton,
+.navButton:link,
+.navButton:visited {
+  display: block;
+  margin: 1.2em 0;
+  padding: 1.2em;
+  background-color: rgb(245, 246, 250);
+  color: rgb(0, 0, 0);
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.navButton:hover {
+  background-color: rgb(240, 240, 248);
+  font-weight: 700;
+}
+
+.navButton:active {
+  color: rgb(255, 86, 0);
+  font-weight: 700;
+}
+
+.navButtonActive,
+.navButtonActive:link,
+.navButtonActive:visited,
+.navButtonActive:hover {
+  background-color: rgb(255, 86, 0);
+  color: white;
+  font-weight: 400;
+}

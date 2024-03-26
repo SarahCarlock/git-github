@@ -1,0 +1,43 @@
+.listing {
+  background-color: white;
+  margin: 1rem 0 1.5rem 0;
+  border: 2px solid transparent;
+  box-shadow: 6px 6px 6px rgb(200, 200, 200);
+  transition: border 0.3s, box-shadow 0.8s;
+  transition-timing-function: ease-out;
+}
+
+.content {
+  padding: 1.2em;
+}
+
+.link,
+.link:link,
+.link:visited {
+  color: rgb(28, 28, 28);
+  text-decoration: none;
+}
+
+.listing:hover {
+  border: 2px solid rgb(255, 86, 0);
+  box-shadow: 6px 6px 6px rgb(255, 200, 170);
+}
+
+.listing:active {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.marginRight {
+  margin-right: 2em;
+}
+
+.comments {
+  display: flex;
+  align-items: center;
+}
+
+.chatIcon {
+  margin-top: 0.25em;
+  margin-right: 0.6em;
+  color: rgb(190, 195, 200);
+}
